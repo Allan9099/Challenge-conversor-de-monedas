@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08576bb4-231a-4964-94ff-e77ca005a760" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aluralatam/conversordemonedas/modelos/Codigos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aluralatam/conversordemonedas/modelos/Monedas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aluralatam/conversordemonedas/modelos/Solicitud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aluralatam/conversordemonedas/modelos/Utilidades.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge conversor de monedas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge conversor de monedas.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluralatam/conversordemonedas/modelos/Codigos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluralatam/conversordemonedas/modelos/Monedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluralatam/conversordemonedas/modelos/Monedas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluralatam/conversordemonedas/modelos/Solicitud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluralatam/conversordemonedas/modelos/Solicitud.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

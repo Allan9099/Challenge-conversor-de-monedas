@@ -12,7 +12,7 @@ public record Monedas(String result,
 
     @Override
     public String toString() {
-        return "Resultado de la conversion: " + formatter.format(conversion_result) +
+        return "Resultado de la conversion: " + formatter.format (conversion_result) +
                 "\nValor actual: " + formatter.format(conversion_rate) + " (Valor actualizado hoy a las 00:01)";
     }
 }

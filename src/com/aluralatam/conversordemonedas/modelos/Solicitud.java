@@ -2,15 +2,17 @@ package com.aluralatam.conversordemonedas.modelos;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.text.DecimalFormat;
 import java.util.List;
 
 public class Solicitud {
+
+    static DecimalFormat formatter = new DecimalFormat("#########");
 
     private String menu = """
                         **********************************************************
@@ -22,7 +24,7 @@ public class Solicitud {
 
         public Monedas solMoneda(String monedaUno, String monedaDos, double cantidad) {
 
-            URI direccion = URI.create("https://v6.exchangerate-api.com/v6/aaff40a181c6e7858f6b678b/pair/" + monedaUno + "/" + monedaDos + "/" + cantidad);
+            URI direccion = URI.create("https://v6.exchangerate-api.com/v6/aaff40a181c6e7858f6b678b/pair/" + monedaUno + "/" + monedaDos + "/" + formatter.format(cantidad));
 
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
@@ -39,7 +41,7 @@ public class Solicitud {
             }
         }
 
-        public List<List<String>> getListaCodigos() {
+        public List<List<String>> solListaCodigos() {
 
 
             URI direccion = URI.create("https://v6.exchangerate-api.com/v6/aaff40a181c6e7858f6b678b/codes");
@@ -61,8 +63,7 @@ public class Solicitud {
                 return null;
             }
         }
-    public String getMenu() {
+    public String solMenu() {
         return menu;
     }
 }
-
